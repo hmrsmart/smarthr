@@ -8,13 +8,32 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^1.28.0",
+    "@supabase/ui": "^0.36.0",
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "^18.0.1",
+    "datatables.net": "^1.11.5",
+    "googleapis": "^100.0.0",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.2",
     "next": "latest",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "primeflex": "^3.1.3",
+    "primeicons": "^5.0.0",
+    "primereact": "^8.0.0-rc.1",
+    "react": "^18.0.0",
+    "react-data-grid": "^7.0.0-beta.12",
+    "react-dom": "17.0.2",
+    "react-transition-group": "^4.4.2",
+    "swr": "^1.3.0",
+    "typescript": "^4.6.3",
+    "xlsx": "^0.18.5"
   },
   "license": "MIT",
   "keywords": [
     "next"
   ],
-  "description": "A \"Hello World\" application with multiple pages that shows how Next.js routing works."
+  "description": "A \"Hello World\" application with multiple pages that shows how Next.js routing works.",
+  "devDependencies": {
+    "@types/node": "^17.0.24"
+  }
 }

@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+
 export default function IndexPage() {
   return (
     <>
@@ -40,7 +41,7 @@ export default function IndexPage() {
               <div className="account-wrapper">
                 <h3 className="account-title">Login</h3>
                 <p className="account-subtitle">Access to our dashboard</p>
-                <form action="admin-dashboard.html">
+                <form action="admin-dashboard">
                   <div className="form-group">
                     <label>Email Address</label>
                     <input
