@@ -86,7 +86,7 @@ const Todo = ({ todo, onDelete }) => {
   }
 
   return (
-    {<li
+    <li
       onClick={(e) => {
         e.preventDefault()
         toggle()
@@ -122,7 +122,7 @@ const Todo = ({ todo, onDelete }) => {
           </svg>
         </button>
       </div>
-    </li>}
+    </li>
   )
 }
 
