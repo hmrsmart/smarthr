@@ -45,7 +45,7 @@ export default function EmployeeDashboard() {
           <div className="col-md-12">
             <div className="welcome-box">
               <div className="welcome-img">
-                <img alt="" src="assets/img/profiles/avatar-02.jpg" />
+                <img alt="" src="assets/img/profiles/avatarhmr.jpg" />
               </div>
               <div className="welcome-det">
                 <h3>Welcome, John Doe</h3>
